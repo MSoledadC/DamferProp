@@ -1,0 +1,127 @@
+/* ====== Paleta Damfer - Property Template ====== */
+:root {
+  --color-primary: #1E3A5F !important;   /* azul petróleo oscuro */
+  --color-accent:  #E0B973 !important;   /* arena cálida */
+  --color-bg:      #F6F5F3 !important;   /* fondo general */
+  --color-text:    #2B2B2B !important;   /* texto principal */
+  --color-muted:   #C9C9C9 !important;   /* bordes/pequeño texto */
+  --radius: 8px !important;
+}
+
+/* ====== Body ====== */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Poppins", "Inter", sans-serif;
+}
+
+/* ====== Top bar / header-connect ====== */
+.header-connect {
+  background-color: var(--color-primary) !important;
+  color: #fff;
+  font-size: 14px;
+}
+
+.header-connect a,
+.header-connect i {
+  color: var(--color-accent) !important;
+}
+
+.header-connect a:hover {
+  color: #fff !important;
+}
+
+/* ====== Navbar / menú de navegación ====== */
+.menu-bg-wrap {
+  background-color: #0F1C2B !important; /* azul muy oscuro, casi negro */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* sombra más marcada */
+  z-index: 1000;
+}
+
+.site-navigation {
+  background-color: transparent; /* no interferir con overlay */
+}
+
+/* Links del nav */
+.site-menu > li > a {
+  color: #fff !important; /* texto blanco */
+  font-weight: 500;
+}
+
+.site-menu > li > a:hover,
+.site-menu > li.active > a {
+  color: #D4AF37 !important; /* dorado al pasar el mouse */
+}
+
+.site-nav {
+  position: fixed; /* lo hace fijo */
+  top: 0;          /* siempre arriba */
+  left: 0;
+  width: 100%;     /* que ocupe todo el ancho */
+  z-index: 1000;   /* para que quede por encima del resto */
+  transition: all 0.3s ease; /* opcional: animación suave al bajar */
+}
+
+/* ====== Hero / Sliders ====== */
+.hero .overlay {
+  background-color: #000;       /* negro puro */
+  mix-blend-mode: multiply;     /* oscurece la imagen */
+  opacity: 0.55;                /* ajusta la intensidad */
+}
+
+/* ====== Cards / propiedades ====== */
+.property-item,
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.property-item h4,
+.property-item .price {
+  color: var(--color-primary);
+}
+
+.btn {
+  border-radius: var(--radius);
+}
+
+/* Botones destacados en dorado */
+.btn-primary,
+.site-nav .btn-primary {
+  background-color: #8f8318!important; /* dorado apagado, elegante */
+  border: none;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.site-nav .btn-primary:hover {
+  background-color: #b8a606 !important; /* hover un poco más claro */
+  color: #fff !important;
+}
+
+.logo {
+    font-size: 24px;
+    color: #D4AF37 !important;
+    font-weight: 500;
+}
+
+/* ====== Footer ====== */
+footer {
+  background-color: var(--color-primary) !important;
+  color: #eee;
+  padding: 40px 0;
+}
+
+footer a {
+  color: var(--color-accent);
+}
+
+footer a:hover {
+  color: #fff;
+}
