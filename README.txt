@@ -1,7 +1,5 @@
-Template Name: Property
-Template Author: Untree.co
-Template License: https://creativecommons.org/licenses/by/3.0/
-Author URI: https://untree.co/
+Template Name: Damfer Inmobiliaria
+Template Author: MSC
 
-Twitter: https://twitter.com/Untree_co
-Facebook: https://web.facebook.com/Untree.co/
+
+
